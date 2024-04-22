@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled HTML Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black; /* Set background color to black */
+  color: white; /* Set font color to white */
+}
+
+.container {
+    color:rgb(204, 204, 206);
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+section.columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  flex-basis: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.column:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.column:nth-child(even) {
+  margin-left: 20px;
+}
+
+section form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+</style>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Welcome to My Website!</h1>
+  </header>
+
+  <section class="columns">
+    <div class="column">
+      <h2>About Us</h2>
+      <p>Learn more about our company and what sets us apart. Founded on the principles of integrity, innovation, and
+        dedication to our clients, we strive to make a difference in everything we do. Our team comprises passionate 
+        individuals driven by a shared vision of excellence.    </p>
+    </div>
+    
+    <div class="column">
+      <h2>Our Team</h2>
+      <p>Meet the talented individuals behind our success.</p>
+    </div>
+  </section>
+
+  <section class="columns">
+    <div class="column">
+      <h2>Contact Us</h2>
+      <p>Have questions or feedback? Contact us using the form below:</p>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your email"required><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+  </footer>
+</div>
+
+</body>
+</html>
