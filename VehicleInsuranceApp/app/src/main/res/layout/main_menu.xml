@@ -1,0 +1,53 @@
+<!-- activity_main_menu.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        tools:text="Main Menu" />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/button_file_claim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File a Claim"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/button_check_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Claim Status"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_communicate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Communicate with Agent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>

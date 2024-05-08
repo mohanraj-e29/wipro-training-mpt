@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image">
+
+
+    <!-- Title -->
+
+    <!-- Input fields -->
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="214dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="86dp"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        tools:text="File a Claim" />
+
+    <EditText
+        android:id="@+id/editText_vehicle_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_title"
+        android:layout_marginTop="24dp"
+        android:text="Vehicle Model"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editText_damage_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Damage Description"
+        android:hint=""
+        android:layout_below="@id/editText_vehicle_model"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Photo upload button -->
+    <Button
+        android:id="@+id/button_upload_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Damage Photo"
+        android:layout_below="@id/editText_damage_description"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Submit button -->
+    <Button
+        android:id="@+id/button_submit_claim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Claim"
+        android:layout_below="@id/button_upload_photo"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
