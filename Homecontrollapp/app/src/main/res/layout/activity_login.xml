@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bck1"
+    tools:context=".LoginActivity">
+
+    <!-- App Icon -->
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_app_icon"
+        android:contentDescription="@string/app_icon_desc" />
+
+    <!-- Username EditText -->
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appIcon"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Username"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/hint_color" />
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginBottom="16dp"
+        android:hint="Password"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/hint_color" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:text="Login"
+        android:textColor="@color/button_text_color"
+        android:padding="12dp" />
+
+</RelativeLayout>

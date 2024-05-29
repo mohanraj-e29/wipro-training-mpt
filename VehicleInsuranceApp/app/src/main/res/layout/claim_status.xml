@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image">
+
+    <!-- Title -->
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/appdev
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:text="Claim Status" />
+
+    <!-- Claim Status -->
+    <TextView
+        android:id="@+id/text_claim_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Claim Status: Pending"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+<<<<<<< HEAD
+=======
+
+    <!-- Claim Status -->
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="93dp"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:text="Claim Status" />
+
+    <TextView
+        android:id="@+id/text_claim_status"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_below="@id/text_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="43dp"
+        android:text="Claim Status: "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- Admin Heading -->
+    <TextView
+        android:id="@+id/text_admin_heading"
+        android:layout_width="109dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/text_claim_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Admin"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <!-- Additional Text View -->
+    <TextView
+        android:id="@+id/text_additional_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_admin_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Additional Information"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- List View to display user-entered ID data -->
+
+    <!-- Print Button -->
+
+    <ListView
+        android:id="@+id/listView_user_data"
+        android:layout_width="match_parent"
+        android:layout_height="318dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="89dp" />
+
+    <Button
+        android:id="@+id/button_print"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="667dp"
+        android:layout_marginEnd="243dp"
+        android:layout_marginBottom="16dp"
+        android:text="Print" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="425dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:text="id" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="19dp"
+        android:text="Next" />
+
+>>>>>>> e5820d4 (Initial commit on appdev branch)
+=======
+>>>>>>> origin/appdev
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bck1"
+    tools:context=".RoomsActivity">
+
+    <TextView
+        android:id="@+id/roomsTitle"
+        android:layout_width="330dp"
+        android:layout_height="81dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+    android:text="Select a Room"
+    android:textColor="#FFFFFF"
+    android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/room1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:text="Room 1"
+        android:textColor="@color/button_text_color"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/room2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:text="Room 2"
+        android:textColor="@color/button_text_color"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/hallButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:text="Hall"
+        android:textColor="@color/button_text_color"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/kitchenButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:text="Kitchen"
+        android:textColor="@color/button_text_color"
+        android:textSize="24sp" />
+
+</LinearLayout>
