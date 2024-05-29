@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 fun factorial(num: Int): Long {
     return if(num == 1) num.toLong()
@@ -7,3 +8,14 @@ fun factorial(num: Int): Long {
 fun main() {
     println(factorial(5))
 }
+=======
+
+fun factorial(num: Int): Long {
+    return if(num == 1) num.toLong()
+    else num * factorial(num -1)
+}
+
+fun main() {
+    println(factorial(5))
+}
+>>>>>>> origin/kotlin

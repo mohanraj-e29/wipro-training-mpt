@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner
 
 data class Employee(val id: Int, var name: String, var position: String, var salary: Double)
@@ -100,4 +101,43 @@ class EmployeeManagementSystem {
 fun main() {
     val system = EmployeeManagementSystem()
     system.start()
+=======
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+fun main(){
+    // Get user input
+    println("Enter first number: ")
+    val num1 = readLine()!!.toInt()
+
+    println("Enter second number: ")
+    val num2 = readLine()!!.toInt()
+
+    // Perform arithmetic operations
+    val sum = num1 + num2
+    val difference = num1 - num2
+
+    // Print the results
+    println("Sum: $sum")
+    println("Difference: $difference")
+
+
+
+    fun array() {
+        val scanner = Scanner(System.`in`)
+        println("Enter the number of elements:")
+        val n = scanner.nextInt()
+
+        val array = IntArray(n)
+        println("Enter $n numbers:")
+
+        for (i in 0 .. n) {
+            array[i] = scanner.nextInt()
+        }
+
+        println("You entered: ${array.joinToString(", ")}")
+    }
+
+>>>>>>> origin/kotlin
 }
