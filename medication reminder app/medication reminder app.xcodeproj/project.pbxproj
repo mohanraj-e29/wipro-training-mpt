@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B815A8362C0ECC48002E0D6F /* medication_reminder_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815A8352C0ECC48002E0D6F /* medication_reminder_appApp.swift */; };
+		B815A8382C0ECC48002E0D6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815A8372C0ECC48002E0D6F /* ContentView.swift */; };
+		B815A83A2C0ECC49002E0D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B815A8392C0ECC49002E0D6F /* Assets.xcassets */; };
+		B815A83D2C0ECC49002E0D6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B815A83C2C0ECC49002E0D6F /* Preview Assets.xcassets */; };
+		B815A8472C0ECC4A002E0D6F /* medication_reminder_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815A8462C0ECC4A002E0D6F /* medication_reminder_appTests.swift */; };
+		B815A8512C0ECC4A002E0D6F /* medication_reminder_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815A8502C0ECC4A002E0D6F /* medication_reminder_appUITests.swift */; };
+		B815A8532C0ECC4A002E0D6F /* medication_reminder_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815A8522C0ECC4A002E0D6F /* medication_reminder_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B815A8432C0ECC4A002E0D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B815A82A2C0ECC47002E0D6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B815A8312C0ECC48002E0D6F;
+			remoteInfo = "medication reminder app";
+		};
+		B815A84D2C0ECC4A002E0D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B815A82A2C0ECC47002E0D6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B815A8312C0ECC48002E0D6F;
+			remoteInfo = "medication reminder app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B815A8322C0ECC48002E0D6F /* medication reminder app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "medication reminder app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B815A8352C0ECC48002E0D6F /* medication_reminder_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medication_reminder_appApp.swift; sourceTree = "<group>"; };
+		B815A8372C0ECC48002E0D6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B815A8392C0ECC49002E0D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B815A83C2C0ECC49002E0D6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B815A8422C0ECC4A002E0D6F /* medication reminder appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "medication reminder appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B815A8462C0ECC4A002E0D6F /* medication_reminder_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medication_reminder_appTests.swift; sourceTree = "<group>"; };
+		B815A84C2C0ECC4A002E0D6F /* medication reminder appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "medication reminder appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B815A8502C0ECC4A002E0D6F /* medication_reminder_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medication_reminder_appUITests.swift; sourceTree = "<group>"; };
+		B815A8522C0ECC4A002E0D6F /* medication_reminder_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medication_reminder_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B815A82F2C0ECC48002E0D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B815A83F2C0ECC4A002E0D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B815A8492C0ECC4A002E0D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B815A8292C0ECC47002E0D6F = {
+			isa = PBXGroup;
+			children = (
+				B815A8342C0ECC48002E0D6F /* medication reminder app */,
+				B815A8452C0ECC4A002E0D6F /* medication reminder appTests */,
+				B815A84F2C0ECC4A002E0D6F /* medication reminder appUITests */,
+				B815A8332C0ECC48002E0D6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B815A8332C0ECC48002E0D6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B815A8322C0ECC48002E0D6F /* medication reminder app.app */,
+				B815A8422C0ECC4A002E0D6F /* medication reminder appTests.xctest */,
+				B815A84C2C0ECC4A002E0D6F /* medication reminder appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B815A8342C0ECC48002E0D6F /* medication reminder app */ = {
+			isa = PBXGroup;
+			children = (
+				B815A8352C0ECC48002E0D6F /* medication_reminder_appApp.swift */,
+				B815A8372C0ECC48002E0D6F /* ContentView.swift */,
+				B815A8392C0ECC49002E0D6F /* Assets.xcassets */,
+				B815A83B2C0ECC49002E0D6F /* Preview Content */,
+			);
+			path = "medication reminder app";
+			sourceTree = "<group>";
+		};
+		B815A83B2C0ECC49002E0D6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B815A83C2C0ECC49002E0D6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B815A8452C0ECC4A002E0D6F /* medication reminder appTests */ = {
+			isa = PBXGroup;
+			children = (
+				B815A8462C0ECC4A002E0D6F /* medication_reminder_appTests.swift */,
+			);
+			path = "medication reminder appTests";
+			sourceTree = "<group>";
+		};
+		B815A84F2C0ECC4A002E0D6F /* medication reminder appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B815A8502C0ECC4A002E0D6F /* medication_reminder_appUITests.swift */,
+				B815A8522C0ECC4A002E0D6F /* medication_reminder_appUITestsLaunchTests.swift */,
+			);
+			path = "medication reminder appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B815A8312C0ECC48002E0D6F /* medication reminder app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B815A8562C0ECC4A002E0D6F /* Build configuration list for PBXNativeTarget "medication reminder app" */;
+			buildPhases = (
+				B815A82E2C0ECC48002E0D6F /* Sources */,
+				B815A82F2C0ECC48002E0D6F /* Frameworks */,
+				B815A8302C0ECC48002E0D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "medication reminder app";
+			productName = "medication reminder app";
+			productReference = B815A8322C0ECC48002E0D6F /* medication reminder app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B815A8412C0ECC4A002E0D6F /* medication reminder appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B815A8592C0ECC4A002E0D6F /* Build configuration list for PBXNativeTarget "medication reminder appTests" */;
+			buildPhases = (
+				B815A83E2C0ECC4A002E0D6F /* Sources */,
+				B815A83F2C0ECC4A002E0D6F /* Frameworks */,
+				B815A8402C0ECC4A002E0D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B815A8442C0ECC4A002E0D6F /* PBXTargetDependency */,
+			);
+			name = "medication reminder appTests";
+			productName = "medication reminder appTests";
+			productReference = B815A8422C0ECC4A002E0D6F /* medication reminder appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B815A84B2C0ECC4A002E0D6F /* medication reminder appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B815A85C2C0ECC4A002E0D6F /* Build configuration list for PBXNativeTarget "medication reminder appUITests" */;
+			buildPhases = (
+				B815A8482C0ECC4A002E0D6F /* Sources */,
+				B815A8492C0ECC4A002E0D6F /* Frameworks */,
+				B815A84A2C0ECC4A002E0D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B815A84E2C0ECC4A002E0D6F /* PBXTargetDependency */,
+			);
+			name = "medication reminder appUITests";
+			productName = "medication reminder appUITests";
+			productReference = B815A84C2C0ECC4A002E0D6F /* medication reminder appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B815A82A2C0ECC47002E0D6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B815A8312C0ECC48002E0D6F = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					B815A8412C0ECC4A002E0D6F = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = B815A8312C0ECC48002E0D6F;
+					};
+					B815A84B2C0ECC4A002E0D6F = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = B815A8312C0ECC48002E0D6F;
+					};
+				};
+			};
+			buildConfigurationList = B815A82D2C0ECC47002E0D6F /* Build configuration list for PBXProject "medication reminder app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B815A8292C0ECC47002E0D6F;
+			productRefGroup = B815A8332C0ECC48002E0D6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B815A8312C0ECC48002E0D6F /* medication reminder app */,
+				B815A8412C0ECC4A002E0D6F /* medication reminder appTests */,
+				B815A84B2C0ECC4A002E0D6F /* medication reminder appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B815A8302C0ECC48002E0D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B815A83D2C0ECC49002E0D6F /* Preview Assets.xcassets in Resources */,
+				B815A83A2C0ECC49002E0D6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B815A8402C0ECC4A002E0D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B815A84A2C0ECC4A002E0D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B815A82E2C0ECC48002E0D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B815A8382C0ECC48002E0D6F /* ContentView.swift in Sources */,
+				B815A8362C0ECC48002E0D6F /* medication_reminder_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B815A83E2C0ECC4A002E0D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B815A8472C0ECC4A002E0D6F /* medication_reminder_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B815A8482C0ECC4A002E0D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B815A8512C0ECC4A002E0D6F /* medication_reminder_appUITests.swift in Sources */,
+				B815A8532C0ECC4A002E0D6F /* medication_reminder_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B815A8442C0ECC4A002E0D6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B815A8312C0ECC48002E0D6F /* medication reminder app */;
+			targetProxy = B815A8432C0ECC4A002E0D6F /* PBXContainerItemProxy */;
+		};
+		B815A84E2C0ECC4A002E0D6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B815A8312C0ECC48002E0D6F /* medication reminder app */;
+			targetProxy = B815A84D2C0ECC4A002E0D6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B815A8542C0ECC4A002E0D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B815A8552C0ECC4A002E0D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B815A8572C0ECC4A002E0D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"medication reminder app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.medication-reminder-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B815A8582C0ECC4A002E0D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"medication reminder app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.medication-reminder-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B815A85A2C0ECC4A002E0D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.medication-reminder-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/medication reminder app.app/medication reminder app";
+			};
+			name = Debug;
+		};
+		B815A85B2C0ECC4A002E0D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.medication-reminder-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/medication reminder app.app/medication reminder app";
+			};
+			name = Release;
+		};
+		B815A85D2C0ECC4A002E0D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.medication-reminder-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "medication reminder app";
+			};
+			name = Debug;
+		};
+		B815A85E2C0ECC4A002E0D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.medication-reminder-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "medication reminder app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B815A82D2C0ECC47002E0D6F /* Build configuration list for PBXProject "medication reminder app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B815A8542C0ECC4A002E0D6F /* Debug */,
+				B815A8552C0ECC4A002E0D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B815A8562C0ECC4A002E0D6F /* Build configuration list for PBXNativeTarget "medication reminder app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B815A8572C0ECC4A002E0D6F /* Debug */,
+				B815A8582C0ECC4A002E0D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B815A8592C0ECC4A002E0D6F /* Build configuration list for PBXNativeTarget "medication reminder appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B815A85A2C0ECC4A002E0D6F /* Debug */,
+				B815A85B2C0ECC4A002E0D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B815A85C2C0ECC4A002E0D6F /* Build configuration list for PBXNativeTarget "medication reminder appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B815A85D2C0ECC4A002E0D6F /* Debug */,
+				B815A85E2C0ECC4A002E0D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B815A82A2C0ECC47002E0D6F /* Project object */;
+}
