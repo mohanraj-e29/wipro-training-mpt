@@ -1,0 +1,24 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.systemtest.MainFragment"
+        android:label="Main Fragment">
+
+        <!-- Define your navigation action here -->
+        <action
+            android:id="@+id/action_mainFragment_to_anotherFragment"
+            app:destination="@id/anotherFragment" />
+
+    </fragment>
+
+    <!-- Define other fragments if needed -->
+    <fragment
+        android:id="@+id/anotherFragment"
+        android:name="com.example.systemtest.AnotherFragment"
+        android:label="Another Fragment" />
+
+</navigation>

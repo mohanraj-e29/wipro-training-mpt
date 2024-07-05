@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.privacylaws.MainFragment"
+        android:label="Main Fragment">
+
+        <action
+            android:id="@+id/action_mainFragment_to_anotherFragment"
+            app:destination="@id/anotherFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/anotherFragment"
+        android:name="com.example.privacylaws.AnotherFragment"
+        android:label="Another Fragment" />
+
+</navigation>
